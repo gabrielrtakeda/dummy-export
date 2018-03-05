@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { px } from '../../utils'
-import { ProgressRankingItem } from '../../'
+import ProgressRankingItem from '../ProgressRankingItem/ProgressRankingItem'
 
 const sortFn = items => items.sort((a, b) => b.props.value - a.props.value)
 

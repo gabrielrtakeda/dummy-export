@@ -1,12 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {
-  Card,
-  Flexbox,
-  Image,
-  Text,
-  Title
-} from '../../'
+
+import { Card } from '../../cards'
+import { Flexbox } from '../../layout'
+import { Image, Text, Title } from '../../content'
 
 const textColor = '#4a4a4a'
 

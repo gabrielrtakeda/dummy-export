@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { ProgressBar } from '../../'
+import ProgressBar from '../ProgressBar/ProgressBar'
 
 const ProgressBox = styled.div`
   display: flex;

@@ -1,7 +1,7 @@
 {
   "name": "dummy-export",
   "version": "0.0.4",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "dependencies": {
     "babel-preset-react-app": "^3.1.1",
     "react": "^16.2.0",
@@ -17,7 +17,7 @@
   "scripts": {
     "build": "styleguidist build",
     "dev": "styleguidist server",
-    "prepublish": "NODE_ENV=production babel src -d lib",
-    "publish": "npm login && npm publish"
+    "prelaunch": "NODE_ENV=production babel src -d lib",
+    "launch": "npm login && npm publish"
   }
 }

@@ -17,7 +17,7 @@
   "scripts": {
     "build": "styleguidist build",
     "dev": "styleguidist server",
-    "prelaunch": "NODE_ENV=production babel src -d lib",
+    "prelaunch": "rm -rf lib && NODE_ENV=production babel src -d lib",
     "launch": "npm publish"
   }
 }

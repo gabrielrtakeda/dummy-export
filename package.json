@@ -1,6 +1,6 @@
 {
   "name": "dummy-export",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/index.js",
   "dependencies": {
     "babel-preset-react-app": "^3.1.1",

@@ -3,4 +3,5 @@ public/
 src/
 
 styleguide.config.js
-yarn.lock
+.babelrc
+yarn-error.log
